@@ -7,7 +7,7 @@
 	"type": "module",
 	"scripts": {
 		"dev": "next dev",
-		"build": "next build",
+		"build": ": \"${NEXT_PUBLIC_URL:=$URL}\"; next build",
 		"start": "next start",
 		"lint": "next lint",
 		"test": "vitest",
