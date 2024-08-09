@@ -1,4 +1,4 @@
 [template.environment]
   STRIPE_SECRET_KEY = "Your Stripe Secret Key"
   NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY = "Your Stripe Publishable Key"
-  STRIPE_CURRENCY = "USD"
+  STRIPE_CURRENCY = "Stripe Currency"
